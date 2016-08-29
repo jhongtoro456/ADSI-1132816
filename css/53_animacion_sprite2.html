@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>sprite animacion</title>
+	<link rel="stylesheet" href="css/53_animacion_sprite2.css">
+</head>
+<body>
+	<h1>sprite animacion </h1>
+	<hr>
+	<section id="leon" class="anim1"></section>
+	<script>
+		var sprite = document.getElementById('leon');
+		var na     =1;
+		setInterval(function() {
+			sprite.className = ''; 
+			sprite.classList.add('anim'+na);
+			if(na == 8) na = 1;
+			else na++;
+		}, 100);
+	</script>
+</body>
+</html>

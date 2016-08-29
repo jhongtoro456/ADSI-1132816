@@ -1,0 +1,26 @@
+body {
+  background-color: #c30fea;
+}
+section {
+  border: 10px solid #3b2424;
+  background-color: #fff;
+  height: 300px;
+  margin: 40px auto;
+  text-align: center;
+  width: 400px;
+}
+section.pointer {
+  cursor: pointer;
+}
+section.move {
+  cursor: move;
+}
+section.wait {
+  cursor: wait;
+}
+section.help {
+  cursor: help;
+}
+section.image {
+  cursor: url("../imgs/pokeball.png"), default;
+}

@@ -1,0 +1,14 @@
+/* selector universal */
+article > p {
+  color: #808080;
+  font-family: arial;
+/* selector adyacente */
+}
+a + p {
+  color: #dc143c;
+/* selector de atributo */
+}
+a[class] {
+  color: #008000;
+  text-decoration: overline;
+}

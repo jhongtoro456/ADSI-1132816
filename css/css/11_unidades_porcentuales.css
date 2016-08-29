@@ -1,0 +1,21 @@
+/* unidades de medidas porcentuales */
+section {
+  background-color: #cd853f;
+  width: 100%;
+}
+section div {
+  background-color: #ffa500;
+  display: inline-block;
+  height: 400;
+  font-size: 3em;
+  text-align: center;
+}
+section div .box1 {
+  width: 50%;
+}
+section div .box2 {
+  width: 40%;
+}
+section div .box3 {
+  width: 20%;
+}

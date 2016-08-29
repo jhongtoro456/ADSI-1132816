@@ -1,0 +1,15 @@
+body {
+  font: 20px tahoma;
+/*pixeles*/
+}
+h2.medidapx {
+  font-size: 10px;
+/*ems*/
+}
+h2.medidaem {
+  font-size: 2em;
+/* exs */
+}
+h2.medidaex {
+  font-size: 3ex;
+}

@@ -1,0 +1,73 @@
+body
+	background-color #EF1F3C
+	color #B81919
+	font 16px Arial 
+section
+	background-color #8D4D4D
+	border 10px solid #1C11F4
+	padding 20px
+	margin 20px auto
+	width 	800px 
+nav a:link,
+nav a:visited
+	background-color #1A0FF4
+	border 4px solid #9A1FC3
+	color #11F156
+	display inline-block 
+	padding 20px 10px 
+	text-align center
+	text-decoration none 
+	width 168px 
+nav a:hover
+	background-color #fff 
+	border 4px solid #251414
+	color #0EB016
+nav a:active 
+	background-color #0B14CB
+	border 4px solid #E9BD23
+	color #fff
+/* pseudo calses para elemntos de formulario */ 
+&::-webkit-input-placeholder
+	color white  
+input
+	background-color #EE4D2D
+	border none 
+	color #fff 
+	font-size 1.2em 
+	display block  
+	outline none 
+	padding 20px 
+	width 96% 
+input:focus
+	background-color #337416
+	color #14F59E
+	/* insertar contenido antes y despues */ 
+div.box::after,
+div.box::before
+	content 	''
+	position absolute 
+div.box 
+	background-color #71F80E
+	height 200px 
+	position relative
+	top 0px
+	left 0px 
+	width 200px 
+div.box::after
+	background-color #211D20
+	height 100px 
+	top  0px 
+	left 100px
+	width 100px 
+div.box::before 
+	background-color #211D20
+	height 100px 
+	top 100px 
+	left 0px 
+	width  100px
+p::first-letter
+	color #221F1F
+	font-weight bolder 
+	font-size 4em
+p::first-line
+	color #3F1C34

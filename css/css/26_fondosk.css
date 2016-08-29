@@ -1,0 +1,29 @@
+body {
+  background-color: #ff13db;
+  font: 16px tahoma;
+  color: #4edf51;
+}
+h2 {
+  background-color: #ff13db;
+  padding: 20px;
+}
+section {
+  background-color: #ff13db;
+  height: 500px;
+  padding: 20px;
+}
+section div {
+  display: inline-block;
+  height: 400px;
+  margin-left: 4px;
+  width: 500px;
+}
+.fondocolor .fondo1 {
+  background-color: #e8f511;
+}
+.fondocolor .fondo2 {
+  background-color: #1e07fb;
+}
+.fondocolor .fondo3 {
+  background-color: #f50a0a;
+}
